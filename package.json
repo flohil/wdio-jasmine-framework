@@ -1,7 +1,7 @@
 {
-  "name": "wdio-jasmine-framework",
-  "version": "0.3.1",
-  "description": "A WebdriverIO plugin. Adapter for Jasmine testing framework.",
+  "name": "wdio-workflo-jasmine-framework",
+  "version": "0.0.1",
+  "description": "This is a customized version of wdio-jasmine-framework for use with workflo framework.",
   "main": "build/adapter.js",
   "scripts": {
     "build": "run-s clean compile",
@@ -21,21 +21,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdriverio/wdio-jasmine-framework.git"
+    "url": "https://github.com/flohil/wdio-workflo-jasmine-framework"
   },
   "keywords": [
     "jasmine",
     "webdriverio",
     "wdio",
     "wdio-plugin",
-    "wdio-framework"
+    "wdio-framework",
+    "workflo"
   ],
-  "author": "Christian Bromann <christian@saucelabs.com>",
+  "author": "Florian Hilbinger <florian.hilbinger@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webdriverio/wdio-jasmine-framework/issues"
+    "url": "https://github.com/flohil/wdio-workflo-jasmine-framework/issues"
   },
-  "homepage": "https://github.com/webdriverio/wdio-jasmine-framework#readme",
+  "homepage": "https://github.com/flohil/wdio-workflo-jasmine-framework",
   "dependencies": {
     "babel-runtime": "6.23.0",
     "jasmine": "^2.5.3",
@@ -65,16 +66,5 @@
     "q": "^1.5.0",
     "should": "^11.2.1",
     "sinon": "^2.1.0"
-  },
-  "contributors": [
-    "christian-bromann <mail@christian-bromann.com>",
-    "Christian Bromann <github@christian-bromann.com>",
-    "patthiel <pthiel@anthropologie.com>",
-    "W. van Kuipers <w.vankuipers@lukkien.com>",
-    "Kurt Harriger <kharriger@rallydev.com>",
-    "Boris Serdiuk <just-boris@hotmail.com>",
-    "Reuben <reuben.pasquini@hp.com>",
-    "just-boris <just-boris@yandex-team.ru>",
-    "Pat Thiel <patthiel@gmail.com>"
-  ]
+  }
 }
