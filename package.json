@@ -1,6 +1,6 @@
 {
   "name": "wdio-workflo-jasmine-framework",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "This is a customized version of wdio-jasmine-framework for use with workflo framework.",
   "main": "build/adapter.js",
   "scripts": {
